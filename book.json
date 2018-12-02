@@ -1,0 +1,33 @@
+{
+    "title" : "PointStone388计划",
+    "author" : "PointStone",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "Home" : "http://pointstone.org/"
+        }
+    },
+    "plugins": [
+        "mathjax",
+        "splitter",
+        "github-buttons",
+        "copy-code-button",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "donate",
+        "expandable-chapters-small",
+        "toc"
+    ],
+    "pluginsConfig": {
+        "github-buttons": {
+            "buttons": [{
+                "user": "PointStoneTeam",
+                "repo": "PointStone388",
+                "type": "star",
+                "size": "small",
+                "count": true
+            }]
+        }
+    }
+}
