@@ -4,7 +4,7 @@
     "language" : "zh-hans",
     "links" : {
         "sidebar" : {
-            "Home" : "http://pointstone.org/"
+            "PointStone" : "http://pointstone.org/"
         }
     },
     "plugins": [
@@ -15,9 +15,8 @@
         "-lunr",
         "-search",
         "search-plus",
-        "donate",
         "expandable-chapters-small",
-        "toc"
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
         "github-buttons": {
