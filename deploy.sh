@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#获取当前时间
+# 设置远程仓库的地址
+remote_url=git@github.com:PointStoneTeam/PointStone388.git
+# 获取当前时间
 cur_date="`date +%Y-%m-%d-%H:%M:%S`" 
 # 生成_book文件
 gitbook build
@@ -13,7 +15,7 @@ else
 fi
 cd .deploy_git/
 git init
-git remote add origin git@github.com:PointStoneTeam/PointStone388.git
+git remote add origin $remote_url
 git checkout -b gh-pages
 git add -A
 git commit -m $cur_date

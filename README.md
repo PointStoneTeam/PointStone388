@@ -5,8 +5,8 @@
 
 
 - 欢迎star，github项目地址: https://github.com/PointStoneTeam/PointStone388
-- 欢迎在项目中提出修改的issue的建议: https://github.com/PointStoneTeam/PointStone388/issues
-<!-- - 如果有修改，请使用`Pull Request`的方式进行提交 -->
+- 如果错误，欢迎在项目中提出修改的issue的建议: https://github.com/PointStoneTeam/PointStone388/issues
+- 如果错误，请使用 `Pull Request` 的方式进行提交修改
 
 # 团队Logo
 <div align="center"> <img src="img/logo.png" width="100"/> </div><br>
