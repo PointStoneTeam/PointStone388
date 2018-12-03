@@ -1,5 +1,3 @@
-<!-- toc -->
-
 # PointStone388介绍
 
 这里是 **PointStone388** 计划，也就是点石的培养计划。
