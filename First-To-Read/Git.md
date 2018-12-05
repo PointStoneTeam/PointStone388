@@ -2,8 +2,11 @@
 Git 是你之后也会经常用到的一个工具
 
 # 教程
-比较推荐和知名廖雪峰老师的 [Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)  
+下面推荐几个教程：
+- Git 官方教程  [Pro Git](https://git-scm.com/book/zh/v2)
+- 流传甚广的廖雪峰老师写的 [Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)  
 如果觉得该教程内容繁多可以先看一下 [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+
 
 # 工具
 推荐使用 [Git bash](https://git-scm.com/)，也就是 Git 的命令行版本，如果刚入门觉得命令行没有图形界面方便，也请大家坚持使用命令行版本！**不要使用有图形界面的工具**
@@ -20,4 +23,38 @@ Git 是你之后也会经常用到的一个工具
 8. 能够进行简单的分支合并
 9. 能够了解 remote 的基本运作方式
 10. 能够对于不同的 remote 进行推送
-11. 能够使用 Pull Request 对于仓库发起合并请求 
+11. 能够使用 Pull Request 对于仓库发起合并请求
+
+---
+# 参考答案
+## 创建一个项目：
+   - 注册账号
+   - 添加SSH
+   - 点击new repository新建项目
+
+## 克隆到本地：
+    git clone git@github.com:(我的用户名)/（远程库名）.git
+
+## 修改后推送到远端：
+    git remote -v
+    git push origin master
+
+## 从远端拉取更新：
+     git remote -v
+     git fetch origin master
+     git push 
+
+## 版本回退：
+     git reset  --hard HEAD^(回退到上一版本)
+
+## 查看当前分支：
+     git branch
+
+## 切换分支：
+     git checkout 分支
+
+## 按照不同分支推送：
+     git push origin 分支
+
+#### 分支合并：
+      git merge 分支1（把分支1合并到当前分支）
