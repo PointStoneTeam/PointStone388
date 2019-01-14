@@ -5,8 +5,9 @@ Git 是你之后也会经常用到的一个工具
 下面推荐几个教程：
 - Git 官方教程  [Pro Git](https://git-scm.com/book/zh/v2)
 - 流传甚广的廖雪峰老师写的 [Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)  
-如果觉得该教程内容繁多可以先看一下 [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
-
+- 如果觉得该教程内容繁多可以先看一下 [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+还有一个通过类似游戏闯关的方式来学习Git的工具
+[learnGitBranching](https://learngitbranching.js.org/)
 
 # 工具
 推荐使用 [Git bash](https://git-scm.com/)，也就是 Git 的命令行版本，如果刚入门觉得命令行没有图形界面方便，也请大家坚持使用命令行版本！**不要使用有图形界面的工具**
