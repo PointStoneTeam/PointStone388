@@ -17,3 +17,6 @@ _book
 
 # deploy_status
 .deploy_git/
+
+# mac thins
+.DS_Store
