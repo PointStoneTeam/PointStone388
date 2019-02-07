@@ -7,6 +7,9 @@
             "PointStone" : "http://pointstone.org/"
         }
     },
+    "styles": {
+        "website": "styles/website.css"
+    },
     "plugins": [
         "mathjax",
         "splitter",
